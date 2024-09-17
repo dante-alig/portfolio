@@ -1,0 +1,105 @@
+body {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-size: 20px;
+}
+
+h1 {
+  font-size: 8em;
+  font-weight: 500;
+}
+
+/* ----------------NAV------------------ */
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px 90px 30px 60px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.profil-pic {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  font-size: 0.8em;
+}
+
+.profil-pic img {
+  width: 20px;
+  height: 20px;
+  border-radius: 100px;
+}
+
+nav {
+  display: flex;
+  gap: 30px;
+  font-size: 1em;
+}
+
+/* ----------------HEADER------------------ */
+
+header {
+  height: calc(100vh - 175px);
+  display: flex;
+  justify-content: space-between;
+}
+
+.title-box {
+  padding: 115px 0px 115px 30px;
+}
+
+.describe {
+  margin: 0px 0px 0px 30px;
+  font-size: 2em;
+  width: 880px;
+  line-height: 1.375;
+}
+
+.projects {
+  padding: 225px 90px 0px 0px;
+  width: 490px;
+}
+
+.projects-title {
+  padding: 30px 0px 30px 0px;
+  border-bottom: 1px solid #d5d8de;
+  font-size: 1.25em;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+.projects-section {
+  font-size: 0.88em;
+  font-weight: 500;
+  color: #6b6d75;
+  line-height: 1.17;
+  text-transform: uppercase;
+}
+
+/* ----------------SCROLL------------------ */
+
+.parallax {
+  height: 95px;
+  overflow: hidden;
+  background-color: #57fa8f;
+  font-size: 1.25em;
+  font-weight: 300;
+  padding: 30px 0px 30px 0px;
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.scroller {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.scroll-text {
+  width: 900px;
+}
+
+.scroll-point {
+  margin: 0px 20px 0px 15px;
+}
